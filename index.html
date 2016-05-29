@@ -1,0 +1,12 @@
+<html ng-app="botApp">
+<head>
+	<meta charset="UTF-8">
+	<title>CFMN</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+</head>
+<body ng-controller="TodoListController as todoList">
+	<input type="text" ng-model="todoList.keyword"></input>
+  <input type="text" ng-model="todoList.ans"></input>
+	<button ng-click="send()">Send</button>
+</body>
+</html>
